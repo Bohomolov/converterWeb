@@ -1,0 +1,40 @@
+.converter {
+    height: 600px;
+    position: relative;
+
+}
+.input {
+    position: absolute;
+    top:150px;
+    left:500px;
+    width: 100;
+}
+.selectCategoriesListMain {
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+.selectCategoriesList1 {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+.selectCategoriesList2 {
+    position: absolute;
+    top: 100px;
+    left: 650px;
+}
+.output{
+       position: absolute;
+       top: 150px;
+       left: 700px;
+       border:5px solid #f00;
+       width: 100px;
+       height: 20px;
+}
+.buttons{
+           position: absolute;
+           top: 200px;
+           left: 700px;
+
+}
