@@ -1,47 +1,73 @@
+.converter con {
+    position: relative;
+}
 .selectMain select {
+    position: absolute;
+    top: 20%;
+    left: 40%;
     display: block;
-    width: 100%;
+    width: 200px;
     padding: .75rem 1rem;
     background: none;
     font-size: 1rem;
+    border: 1px solid #000000;
 }
 
 .selectFirsParameter select {
+    position: absolute;
+    top: 30%;
+    left: 40%;
     display: block;
-    width: 100%;
+    width: 200px;
     padding: .75rem 1rem;
     background: none;
     font-size: 1rem;
+    border: 1px solid #000000;
 }
 
 .selectSecondParameter select {
+    position: absolute;
+    top: 40%;
+    left: 40%;
     display: block;
-    width: 100%;
+    width: 200px;
     padding: .75rem 1rem;
     background: none;
     font-size: 1rem;
+    border: 1px solid #000000;
 }
 
 .inputClass {
+    position: absolute;
+    top: 50%;
+    left: 40%;
     margin-bottom: 1rem;
 }
 
 .inputClass input {
-    width: 100%;
+    width: 200px;
+    border: 1px solid #000000;
 }
 
 .button {
-    margin-bottom: 1rem;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+
+
 
 }
 
 .button button {
-    width: 100%;
+    width: 200px;
+    border: 1px solid #000000;
 }
 
 .output {
-    position: relative;
-    border: 2px solid #000000;
-    width: 100%;
-    eight: 20px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    border: 1px solid #000000;
+    width: 200px;
+    height: 20px;
 }

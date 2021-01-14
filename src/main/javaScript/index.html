@@ -9,41 +9,41 @@
     </script>
 </head>
 <body>
-<div class="selectMain">
-    <select onchange="loadSubData(this)">
-        <option value="1">Time</option>
-        <option value="2">Length</option>
-        <option value="3">Volume</option>
-        <option value="4">Weight</option>
-        <option value="5">Temperature</option>
-    </select>
-</div>
-<p></p>
-<div class="selectFirsParameter">
-    <select id="sub1" >
-        <option>Select category</option>
-    </select>
-</div>
-<p></p>
-<div class="selectSecondParameter">
-    <select id="sub2">
-        <option>Select category</option>
-    </select>
-</div>
-<p></p>
-<div class="inputClass">
-    <input id="input">
-</div>
-<p></p>
-<div class="button">
-    <button onclick="bl()">Convert</button>
-</div>
-<div class="output">
-    <output id="output">Result</output>
-</div>
-<script src="main.js">
-
-</script>
-
+<div class="converter">
+    <div class="selectMain">
+        <select onchange="loadSubData(this)">
+            <option value="1">Time</option>
+            <option value="2">Length</option>
+            <option value="3">Volume</option>
+            <option value="4">Weight</option>
+            <option value="5">Temperature</option>
+        </select>
+    </div>
+    <p></p>
+    <div class="selectFirsParameter">
+        <select id="sub1">
+            <option>Select category</option>
+        </select>
+    </div>
+    <p></p>
+    <div class="selectSecondParameter">
+        <select id="sub2">
+            <option>Select category</option>
+        </select>
+    </div>
+    <p></p>
+    <div class="inputClass">
+        <input id="input">  - input
+    </div>
+    <p></p>
+    <div class="button">
+        <button onclick="bl()">Convert</button>
+    </div>
+    <div class="output">
+        <output id="output">Result</output>
+    </div>
+    <script src="main.js">
+    </script>
+    </div>
 </body>
 </html>
