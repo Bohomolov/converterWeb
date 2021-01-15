@@ -67,7 +67,8 @@ function bl() {
     let select2 = document.getElementById('sub2');
     let sub2 = select2.value;
     let num = Number(document.getElementById('input').value);
-    if (sub1 === 'Sec' && sub2 === 'Min') {
+
+    if (sub1 === 'sec' && sub2 === 'min') {
         result = num / 60;
     } else if (sub1 === 'min' && sub2 === 'sec') {
         result = num * 60;
