@@ -51,7 +51,7 @@ function loadSubData(obj) {
 
     getDataAbstaraction(val, function (data) {
         let opts = '<option>Select category</option>';
-        for (var i in data) {
+        for (let i in data) {
             opts += '<option value="' + i + '">' + data[i] + '</option>';
         }
         document.getElementById('sub1').innerHTML = opts;
